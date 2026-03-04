@@ -1,0 +1,50 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    gap: 50px;
+
+}
+
+#buttonsDiv {
+
+    /* background-color: dimgrey; */
+    display: flex;
+    flex-direction: column;
+    /* height: 70vh; */
+    gap: 20px;
+
+}
+
+#buttonsDiv button {
+
+    height: 50px;
+    max-width: 150px;
+
+}
+
+
+
+#miscBtnDiv {
+    
+    /* background-color: rgb(247, 210, 143); */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+#miscBtnDiv button, #miscBtnDiv input {
+
+    height: 30px;
+    max-width: 150px;
+
+}
+
+#removeBtn {
+
+    background-color: firebrick;
+    color: white;
+
+}
