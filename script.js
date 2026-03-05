@@ -12,7 +12,7 @@ function copyToClipboard(text) {
 
 // pre-added remarks array
 
-let remarks_array = ["jesus", "angel", "cross", "mosque", "quran", "less than 45 degrees", "45 degrees", "more than 45 degrees", "exaggerated breast"];
+let remarks_array = ["God", "Jesus", "Allah", "Buddha", "Hindu Deity", "angel", "witch", "cross", "pentagram", "mosque", "quran", "cleavage", "close-up", "45 degrees", "less than 45 degrees", "suspected naked", "exaggerated breast", "kissing"];
 
 // create dynamic buttons
 
@@ -112,5 +112,6 @@ function addCustomRemark() {
     remarks_array.push(customRemark);
     addRemarkInput.value = "";
     createButtons()
+
 
 }
