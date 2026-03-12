@@ -28,7 +28,8 @@ function createButtons() {
     remarks_array.forEach(element => {
         
         let btn = document.createElement("button")
-        btn.textContent = element
+        btn.textContent = element;
+        btn.classList.add("rocket-tag", "components_tag__eBgou");
         BTNDIVID.appendChild(btn)
 
 
@@ -115,3 +116,4 @@ function addCustomRemark() {
 
 
 }
+
